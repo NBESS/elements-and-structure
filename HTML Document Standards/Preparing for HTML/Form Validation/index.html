@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+</head>
+
+<body>
+    <section class="overlay">
+        <h1>Guess the right number!</h1>
+        <form action="check.html" method="GET">
+            <label for="guess">Enter a number between 1-10:</label>
+            <br>
+            <!-- This input field is has restricted range -->
+            <input type="number" name="guess" id="guess" required min="1" max="10">
+
+            <br>
+            <input type="submit" id="submission" value="Submit">
+        </form>
+    </section>
+
+    <section class="overlay">
+        <h1>Sign Up</h1>
+        <p>Create an account:</p>
+        <form action="submission.html" method="GET">
+
+            <label for="username">Username:</label>
+            <!-- The minlength and maxlength attributes in the input fields restricts text length -->
+            <br>
+            <input id="username" name="username" type="text" required minlength="3" maxlength='15'>
+            <br>
+            <label for="pw">Password:</label>
+            <br>
+            <input id="pw" name="pw" type="password" required minlength="8" maxlength='15'>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
