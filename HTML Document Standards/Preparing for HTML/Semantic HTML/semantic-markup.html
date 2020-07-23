@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+</head>
+
+<body>
+    <!-- The header and the nav elements make it easier for others to read code and is helpful for browsers and individuals using screen readers -->
+    <header>
+        <!-- The header is usually a container for either navigational links or introductory content containing <h1> to <h6> headings -->
+
+        <nav>
+            <!-- The <nav> is either used on its own or inside the <header> and is usually used to define a block of navigation links such as menus and tables of contents -->
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- The <main> element is used to encapsulate the main content within a webpage. Helps browsers and screen readers to identify that whatever is inside the element is the bulk of the content -->
+        <section>
+            <!-- This section is usually contains elements in a document with the same theme like chapters and headings -->
+
+            <article>
+                <!-- This element is used to contain articles, blogs and other relevant text or media -->
+            </article>
+
+            <aside>
+                <!-- This element is used to enhance another element and contains content that is not impact the meaning of the main content -->
+            </aside>
+
+            <figure>
+                <img src='<!-- The location of the media source goes here -->'>
+                <figcaption>
+                    <!-- This element is used to describe the media in the figure tag -->
+                </figcaption>
+                <!-- This element is used to hold media such as an image, illustration, diagram, code snippet (etc...). This element can be removed or relocated without effecting the flow of the document -->
+            </figure>
+
+            <audio>
+                <!-- This element is used to embed audio into the document, it also uses src to link to the audio source. -->
+                <!-- contains a link to the media source -->
+                <source src='#'
+                    type='<!-- the audio type goes here, i.e. "audio/mp3" (other audio attributes can be found at https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Attributes -->'>
+            </audio>
+
+            <video>
+                <!-- This element displays video onto the page and has several attributes like audio tags that allow the video to be manipulated -->
+            </video>
+
+            <!--The <embed> element is self closing tag that embeds local media or files from other sites into the page -->
+            <embed />
+
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- This element holds the content at the bottom of the subject information (usually the contact and copyright info, terms of use, Site Map, and Reference to top of page links) -->
+    </footer>
+
+</body>
+
+</html>
