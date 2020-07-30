@@ -36,6 +36,7 @@ h2, h3, h4 {
 p {
     display: block;
     margin: 1em;
+    opacity: 1;
 }
 
 /*  Header Section */
@@ -132,9 +133,24 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 3px;
 }
 
 .card-container {
     margin-top: 15px;
 
+}
+
+/* Contact Section */
+
+.contact {
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
 }
