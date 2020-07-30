@@ -14,6 +14,7 @@ body {
     opacity: 0.9;
     text-align: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -22,17 +23,19 @@ body {
 
 main {
     flex-direction: column;
-    align-self: center;
+    align-items: center;
     width: 1200px;
-    margin-top: 70px;
+    padding-top: 69px;
+    margin: auto;
 }
 
-h2 {
+h2, h3, h4 {
     padding: 10px;
 }
 
-h4 {
-    padding: 5px;
+p {
+    display: block;
+    margin: 1em;
 }
 
 /*  Header Section */
@@ -87,4 +90,51 @@ header {
     justify-content: space-between;
     background-color: black;
     
+}
+
+/* Featured Section */
+
+.featured {
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 1000px;
+    margin: auto;
+}
+
+.featured-gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-gallery img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+    background-image: url(./resources/img-locations-background.jpg);
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.locations .card {
+    background-color: black;
+    width: 300px;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    margin-top: 15px;
+
 }
