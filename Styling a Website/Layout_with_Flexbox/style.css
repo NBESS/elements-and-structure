@@ -29,7 +29,7 @@ main {
     margin: auto;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     padding: 10px;
 }
 
@@ -153,4 +153,9 @@ header {
 
 footer {
     width: 100%;
+    padding-left: 20px;
+}
+
+footer h5 {
+    margin: 20px 0;
 }
