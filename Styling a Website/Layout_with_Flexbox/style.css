@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    padding-top: 69px;
+    margin: auto;
+}
+
+h2, h3, h4, h5 {
+    padding: 10px;
+}
+
+p {
+    display: block;
+    margin: 1em;
+    opacity: 1;
+}
+
+/*  Header Section */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/* Main Section */
+
+.mission {
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./resources/img-mission-background.jpg");
+    
+}
+
+.banner {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+/* Featured Section */
+
+.featured {
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 1000px;
+    margin: auto;
+}
+
+.featured-gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-gallery img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+    background-image: url(./resources/img-locations-background.jpg);
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.locations .card {
+    background-color: black;
+    width: 300px;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+
+.card-container {
+    margin-top: 15px;
+
+}
+
+/* Contact Section */
+
+.contact {
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    padding-left: 20px;
+}
+
+footer h5 {
+    margin: 20px 0;
+}
