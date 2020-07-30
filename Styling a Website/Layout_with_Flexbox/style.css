@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  Header Section */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}
