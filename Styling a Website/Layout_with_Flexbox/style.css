@@ -5,6 +5,7 @@
 
 html {
     font-size: 22px;
+    font-family: Helvetica;
 }
 
 body {
@@ -12,8 +13,26 @@ body {
     color: seashell;
     opacity: 0.9;
     text-align: center;
-    display: flex;
     flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    align-self: center;
+    width: 1200px;
+    margin-top: 70px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    padding: 5px;
 }
 
 /*  Header Section */
@@ -23,10 +42,10 @@ header {
     border-bottom: 1px solid seashell;
     position: fixed;
     height: 69px;
-    display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    background-color: black;
 }
 
 .logo {
@@ -50,6 +69,22 @@ header {
     padding: 10px;
 }
 
-.container {
-    display: flex;
+/* Main Section */
+
+.mission {
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./resources/img-mission-background.jpg");
+    
+}
+
+.banner {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    
 }
